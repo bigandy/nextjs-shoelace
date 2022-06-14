@@ -9,9 +9,8 @@
 
 .main {
   padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  gap: 1em;
   justify-content: center;
   align-items: center;
 }

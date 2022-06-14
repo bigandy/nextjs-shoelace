@@ -18,10 +18,6 @@ const SlButton = dynamic(
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-      </Head>
-
       <main className={styles.main}>
         <SlButton size="small">small</SlButton>
         <SlButton size="medium">medium</SlButton>
